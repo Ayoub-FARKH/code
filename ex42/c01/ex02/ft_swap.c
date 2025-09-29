@@ -9,17 +9,18 @@
 /*                                                    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include <stdio.h>
 
 void	ft_swap(int *a, int *b)
 {
-	int	old_a;
+	int	temp;
 
-	old_a = *a;
+	temp = *a;
 	*a = *b;
-	*b = old_a;
+	*b = temp;
 }
 
-/*
+
 int	main(void)
 {
 	int	a;
@@ -32,4 +33,4 @@ int	main(void)
 	printf("b: %d\n", b);
 	return (0);
 }
-*/
+

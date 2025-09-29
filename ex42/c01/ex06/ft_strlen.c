@@ -9,6 +9,7 @@
 /*                                                    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include <stdio.h>
 
 int	ft_strlen(char *str)
 {
@@ -22,13 +23,13 @@ int	ft_strlen(char *str)
 	return (len);
 }
 
-/*
+
 int	main(void)
 {
 	char	*str;
 
-	str = "Hello World!\n";
+	str = "i\n";
 	printf("%d\n", ft_strlen(str));
 	return (0);
 }
-*/
+

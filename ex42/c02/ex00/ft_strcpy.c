@@ -24,7 +24,8 @@ char	*ft_strcpy(char *dest, char *src)
 	return (dest);
 }
 
-/*
+#include <stdio.h>
+
 int	main(void)
 {
 	char src[] = "Hello";
@@ -33,4 +34,4 @@ int	main(void)
 	printf("%s\n", ft_strcpy(dest, src));
 	return (0);
 }
-*/
+

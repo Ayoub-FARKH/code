@@ -14,20 +14,20 @@
 
 void	ft_putstr(char *str)
 {
-	int	len;
+	int	i;
 
-	len = 0;
-	while (str[len])
+	i = 0;
+	while (str[i])
 	{
-		len++;
+		i++;
 	}
-	write(1, str, len);
+	write(1, str, i);
 }
 
-/*
+
 int	main(void)
 {
 	ft_putstr("Hello World!\n");
 	return (0);
 }
-*/
+

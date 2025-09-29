@@ -9,6 +9,7 @@
 /*                                                    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include <stdio.h>
 
 int	ft_strncmp(char *s1, char *s2, unsigned int n)
 {
@@ -25,4 +26,15 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 	if (i == n)
 		return (0);
 	return (s1[c] - s2[c]);
+}
+
+int	main(void)
+{
+	char	s1[] = "test";
+	char	s2[] = "test";
+	unsigned int	n;
+
+	n = 5;
+	printf("%d", ft_strncmp(s1, s2, n));
+	return 0;
 }

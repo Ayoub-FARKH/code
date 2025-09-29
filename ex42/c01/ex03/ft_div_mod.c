@@ -9,6 +9,7 @@
 /*                                                    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include <stdio.h>
 
 void	ft_div_mod(int a, int b, int *div, int *mod)
 {
@@ -16,7 +17,7 @@ void	ft_div_mod(int a, int b, int *div, int *mod)
 	*mod = a % b;
 }
 
-/*
+
 int	main(void)
 {
 	int	a;
@@ -31,4 +32,4 @@ int	main(void)
 	printf("mod: %d\n", mod);
 	return (0);
 }
-*/
+
