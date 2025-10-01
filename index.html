@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services Informatique – Montage PC, Récupération de données, Maintenance | Ayoub</title>
+  <meta name="description" content="Entreprise d'informatique: montage/commande/livraison de PC (Windows 11 + Office), récupération de données HDD/SSD, maintenance ordinateurs portables et fixes. Contact WhatsApp, téléphone, email ou via formulaire." />
+  <meta property="og:title" content="Services Informatique – Ayoub" />
+  <meta property="og:description" content="Montage PC, récupération de données, maintenance. Contact rapide: WhatsApp, 06 29 36 98 46, proayoubfarkh@gmail.com" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0d1b2a" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230d1b2a'/><text x='50' y='60' font-size='55' text-anchor='middle' fill='%23fff' font-family='Arial'>IT</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Montage PC, Récupération de données, Maintenance – Rapide et fiable</h1>
+      <p>
+        Je monte, commande et livre des PC prêts à l'emploi avec Windows 11 et la suite Office installée. 
+        Je récupère vos données (HDD/SSD) et assure la maintenance de vos ordinateurs portables et fixes.
+      </p>
+      <div class="cta-group">
+        <a class="btn btn-primary" href="services/montage.html">Services</a>
+        <a class="btn btn-outline" href="#tarifs">Tarifs</a>
+        <a class="btn btn-outline" href="#contact">Contact</a>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <section id="tarifs" class="section">
+    <div class="container">
+      <h2>Tarifs</h2>
+      <div class="cards pricing">
+        <article class="card">
+          <h3>Montage PC</h3>
+          <p>Sur devis selon la configuration et les délais.</p>
+          <a class="btn btn-primary" href="services/montage.html">Demander un devis</a>
+        </article>
+        <article class="card">
+          <h3>Récupération de données</h3>
+          <p>Sur devis après diagnostic (logique / matériel).</p>
+          <a class="btn btn-primary" href="services/recuperation-donnees.html">Diagnostic</a>
+        </article>
+        <article class="card">
+          <h3>Maintenance</h3>
+          <p>Sur devis selon la panne et les pièces nécessaires.</p>
+          <a class="btn btn-primary" href="services/maintenance.html">Prendre RDV</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="section">
+    <div class="container">
+      <h2>FAQ</h2>
+      <details class="faq-item">
+        <summary>Combien de temps pour monter un PC ?</summary>
+        <p>Généralement 24 à 72h selon disponibilité des pièces et tests.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Pouvez-vous récupérer les données d’un disque endommagé ?</summary>
+        <p>Oui, j’effectue un diagnostic et je tente une récupération logique ou matérielle selon l’état.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Intervenez-vous à domicile ?</summary>
+        <p>Oui, selon la zone géographique. Sinon, retrait et livraison possibles.</p>
+      </details>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p class="zone-info">Prestations à domicile et livraisons possibles selon la zone géographique.</p>
+      <p>Contact rapide: <a class="contact-whatsapp" href="https://wa.me/33629369846" target="_blank" rel="noopener">WhatsApp</a> · <span class="contact-phone">06 29 36 98 46</span> · <a class="contact-email" href="mailto:proayoubfarkh@gmail.com">proayoubfarkh@gmail.com</a></p>
+
+      <form id="contact-form" class="contact-form" novalidate>
+        <div class="row gap">
+          <div class="field">
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" name="prenom" autocomplete="given-name" required />
+            <small class="error"></small>
+          </div>
+          <div class="field">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" autocomplete="family-name" required />
+            <small class="error"></small>
+          </div>
+        </div>
+        <div class="row gap">
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required />
+            <small class="error"></small>
+          </div>
+          <div class="field">
+            <label for="telephone">Téléphone</label>
+            <input type="tel" id="telephone" name="telephone" inputmode="tel" autocomplete="tel" pattern="^[0-9 +().-]{6,}$" required />
+            <small class="error"></small>
+          </div>
+        </div>
+        <div class="row gap">
+          <div class="field">
+            <label for="prestation">Prestation souhaitée</label>
+            <select id="prestation" name="prestation" required>
+              <option value="">Sélectionner…</option>
+              <option>Montage PC</option>
+              <option>Récupération de données</option>
+              <option>Maintenance</option>
+            </select>
+            <small class="error"></small>
+          </div>
+          <div class="field">
+            <label for="objet">Objet</label>
+            <input type="text" id="objet" name="objet" required />
+            <small class="error"></small>
+          </div>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+          <small class="error"></small>
+        </div>
+        <div class="row between center wrap">
+          <label class="consent">
+            <input type="checkbox" id="consent" required />
+            <span>J’accepte que mes données soient utilisées uniquement pour le suivi de mon dossier. Elles sont supprimées à la fin de la prestation, en conservant le strict nécessaire.</span>
+          </label>
+
+        </div>
+        <div class="row gap">
+          <button class="btn btn-primary" type="submit">Envoyer</button>
+          <a class="btn btn-outline" id="mailto-fallback" href="#">Ouvrir dans mon email</a>
+          <a class="btn btn-outline" id="whatsapp-fallback" href="#" target="_blank" rel="noopener">Préparer WhatsApp</a>
+        </div>
+        <p class="hint">Sans serveur, l’envoi automatique se fait via votre logiciel d’email (mailto). Intégration EmailJS possible plus tard.</p>
+      </form>
+
+
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>Ayoub</h3>
+          <p>Services informatique: montage PC, récupération de données, maintenance.</p>
+        </div>
+        <div>
+          <h4>Mentions sur vos données</h4>
+          <p>Aucune donnée n’est utilisée ou enregistrée à d’autres fins que le suivi de votre dossier. Les données sont supprimées à la fin de la prestation, en conservant le strict nécessaire.</p>
+        </div>
+        <div>
+          <h4>Mentions légales</h4>
+          <ul class="plain">
+            <li><a href="mentions-legales.html">Voir les mentions légales</a></li>
+          </ul>
+        </div>
+
+      </div>
+      <p class="copyright">© <span id="year"></span> Ayoub. Tous droits réservés.</p>
+    </div>
+    <button id="backToTop" class="back-to-top" aria-label="Retour en haut">↑</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
